@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    table{
+            text-align: center;
+            font-size: smaller;
+            margin-left: 30%;
+            margin-top:4%
+           }
+
+           td{
+            
+            box-sizing: border-box;
+            border-radius: 4px;
+            font-size: 18px;
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;}
+          
+
+           
+
+.step-1 {
+           width: 220px;
+           height: 20px;
+           background-color:#eeeef1;
+           padding: 10px;
+           padding-top: 10px;
+           padding-right: 10px;
+            padding-bottom: 10px;
+             padding-left: 10px;
+} 
+
+.step-2 {
+           width: 220px;
+           height: 20px;
+           padding: 10px;
+           background-color:#eeeef1;
+           padding: 10px;
+           padding-top: 10px;
+           padding-right: 10px;
+            padding-bottom: 10px;
+             padding-left: 10px;
+}
+
+           .step-3 {
+           width: 220px;
+           height: 20px;
+           background-color:  rgb(159, 177, 96);
+           padding: 10px;
+           padding-top: 10px;
+           padding-right: 10px;
+            padding-bottom: 10px;
+             padding-left: 10px;
+}
+
+           tr{
+            font-weight: bold;
+           display: inline;
+           }
+           
+        fieldset{
+    
+    margin-left: 35%;
+    margin-top: 2%;
+    width: 25%;
+    font-weight: bolder;
+   }
+     legend{
+        font-size: x-large;
+        
+     }      
+      .fields-input{
+        margin-left: 1%;
+        font-size: larger;
+        width: max-content;
+        
+      }
+</style>
+<body>
+
+        <table>
+        
+        <tr>
+            <td class="step-1"> Step 1: Accounts</td>
+            <td class="step-2"> Step 2: Personal Details </td> 
+            <td class="step-3"> Step 3: Review  </td> 
+    
+        </tr>
+    
+        </table>
+    
+    <fieldset>
+        <legend>Review</legend>
+        <label>How Did You Hear About Us?</label>
+        <select>
+            <option value=""></option>
+            <option value="google">Google</option>
+            <option value="Friend Circle">Friend Circle</option>
+            <option value="Advertising">Advertising</option>
+            <option value="other">other</option>
+
+        </select><br/><br/>
+        <label>Would You Like To Visit Again?</label><br/><br/>
+        <input type="radio" name="yes-no-maybe"/>Yes
+        <input type="radio" name="yes-no-maybe"/>No
+        <input type="radio" name="ymaybe"/>Maybe<br/><br/>
+
+        <label>Comment</label>
+        <textarea cols="50" rows="5" placeholder="type your comment here!"></textarea><br/><br/>
+        <input type="file" name="file" /><br /> <br/>
+        <input type="checkbox" name="signup for email"/>Sign me up for email<br/><br/>
+        <a href="./Personal Details.html"> <input type=button name="back" value="Back"/></a>
+        <a href="./thankyoou.html"><button type="submit">Submit</button></a>
+
+    </fieldset>
+</body>
+</html>
