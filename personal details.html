@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts</title>
+    <style>
+        
+
+
+        table{
+            text-align: center;
+            font-size: smaller;
+            margin-left: 30%;
+            margin-top:4%
+           }
+
+           td{
+            
+            box-sizing: border-box;
+            border-radius: 4px;
+            font-size: 18px;
+           
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;}
+          
+
+
+.step-1 {
+           width: 220px;
+           height: 20px;
+           background-color: #eeeef1;
+           padding: 10px;
+           padding-top: 10px;
+           padding-right: 10px;
+            padding-bottom: 10px;
+             padding-left: 10px;
+} 
+
+.step-2 {
+           width: 220px;
+           height: 20px;
+           background-color:  rgb(159, 177, 96);
+           padding: 10px;
+           padding-top: 10px;
+           padding-right: 10px;
+            padding-bottom: 10px;
+             padding-left: 10px;
+}
+
+           .step-3 {
+           width: 220px;
+           height: 20px;
+           background-color: #eeeef1;
+           padding: 10px;
+           padding-top: 10px;
+           padding-right: 10px;
+            padding-bottom: 10px;
+             padding-left: 10px;
+}
+           
+        fieldset{
+    
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 25%;
+    font-weight: bolder;
+        }
+       
+   
+           
+      .fields-input{
+        margin-left: 1%;
+        font-size: larger;
+        width: max-content;
+        
+      }
+   
+      legend{
+        font-size: x-large;
+        
+     }  
+      div.cnic input{
+        width: 12px;
+        padding: 0%;
+    }
+      
+    </style>
+</head>
+
+<body>
+    <table>
+    
+    <tr>
+        <td class="step-1"> Step 1: Accounts</td>
+        <td class="step-2"> Step 2: Personal Details </td> 
+        <td class="step-3"> Step 3: Review  </td> 
+    </tr>
+
+    </table>
+
+<form>
+    <fieldset>
+        <legend>Persoanl Details</legend>
+        <div class="fields-input">
+        <lable>First Name</lable><br/>
+        <input type="text" name="FirstName" size="30" placeholder="Enter Your FirstName" required/><br/><br/>
+        <lable>Last Name</lable><br/>
+        <input type="text" name="LastName" size="30" placeholder="Enter your LastName" required/><br/><br/>
+        <lable>Enter Your CNIC Number</lable><br/>
+        <div class="cnic">
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+        <input type="text" name="CNIC" maxlength="1" size="01"/>
+
+
+    </div>
+    <br/><br/>
+    <label>Social Link</label>
+    <input type="url" name="url" placeholder="Enter your Facebook /Linkedin" size="25" required/><br/><br/>
+
+        <a href="./Account.html"><input type="button" name="Back" value="Back"/> </a>
+        <a href="./Review.html"><button type="button">Next</button></a>
+
+    </div>
+    </fieldset>
+        
+</form>
+</body>
+</html>
