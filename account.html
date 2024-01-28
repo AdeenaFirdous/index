@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts</title>
+    <style>
+
+table{
+            text-align: center;
+            font-size: smaller;
+            margin-left: 30%;
+            margin-top:4%
+           }
+
+        td{
+            
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: rgb(100, 140, 226);
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;}
+
+
+        fieldset{
+    
+         margin-left: 33%;
+         margin-top: 2%;
+         width: 30%;
+         font-weight: bolder;
+        }
+        legend{
+        font-size: x-large;
+        
+     }  
+           
+.step-1 {
+           width: 220px;
+           height: 20px;
+           background-color: rgb(159, 177, 96);
+           padding: 10px;
+           padding-top: 10px;
+           padding-right: 10px;
+           padding-bottom: 10px;
+           padding-left: 10px;
+            
+}
+
+.step-2 {
+           width: 220px;
+           height: 20px;
+           background-color: #eeeef1;
+           padding: 10px;
+           padding-top: 10px;
+           padding-right: 10px;
+            padding-bottom: 10px;
+             padding-left: 10px;
+}
+
+           .step-3 {
+           width: 220px;
+           height: 20px;
+           background-color: #eeeef1;
+           padding: 10px;
+           padding-top: 10px;
+           padding-right: 10px;
+            padding-bottom: 10px;
+             padding-left: 10px;
+}
+           
+      .feilds-input{
+        margin-left: 2%;
+        font-size: larger;
+        
+      }
+    </style>
+</head>
+
+<body>
+   
+   
+    <table>
+    
+    <tr>
+        <td class="step-1"> Step 1: Accounts</td>
+        <td class="step-2"> Step 2: Personal Details </td> 
+        <td class="step-3"> Step 3: Review  </td> 
+    </tr>
+
+    </table>
+
+<form>
+    <fieldset>
+        <legend>Account</legend>
+        <div class="feilds-input">
+        <lable>Email Address</lable><br/>
+        <input type="email" name="Email" size="30" placeholder="abc@gmail.com" required/><br/><br/>
+        <lable>Password</lable><br/>
+        <input type="password" name="password" size="30" placeholder="Enter your Password" required/><br/><br/>
+        <lable>Confirm Password</lable><br/>
+        <input type="password" name="password" size="30" placeholder="Confirm your Password" required/><br/><br/>
+        <a href="./homepage.html"><input type="button" name="Back" value="Back"/> </a>
+        <a href="./Personal Details.html"><input type="button" name="Next" value="Next"/></a>
+
+    </div>
+    </fieldset>
+        
+</form>
+</body>
+</html>
